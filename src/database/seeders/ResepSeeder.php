@@ -11,7 +11,7 @@ class ResepSeeder extends Seeder
     {
         $reseps = [
             [
-                'kunjungan_id' => 3, // diperiksa
+                'kunjungan_id' => 3,
                 'pasien_id' => 3,
                 'dokter_id' => 1,
                 'nomor_resep' => 'RSP-20250110-0001',
@@ -20,7 +20,7 @@ class ResepSeeder extends Seeder
                 'catatan' => 'Hindari makanan pedas dan asam',
             ],
             [
-                'kunjungan_id' => 4, // selesai
+                'kunjungan_id' => 4,
                 'pasien_id' => 4,
                 'dokter_id' => 3,
                 'nomor_resep' => 'RSP-20250110-0002',
@@ -29,7 +29,7 @@ class ResepSeeder extends Seeder
                 'catatan' => null,
             ],
             [
-                'kunjungan_id' => 5, // selesai
+                'kunjungan_id' => 5,
                 'pasien_id' => 5,
                 'dokter_id' => 1,
                 'nomor_resep' => 'RSP-20250111-0001',
@@ -38,7 +38,7 @@ class ResepSeeder extends Seeder
                 'catatan' => 'Minum sebelum makan',
             ],
             [
-                'kunjungan_id' => 7, // selesai
+                'kunjungan_id' => 7,
                 'pasien_id' => 2,
                 'dokter_id' => 1,
                 'nomor_resep' => 'RSP-20250112-0001',
@@ -47,7 +47,7 @@ class ResepSeeder extends Seeder
                 'catatan' => null,
             ],
             [
-                'kunjungan_id' => 9, // selesai
+                'kunjungan_id' => 9,
                 'pasien_id' => 4,
                 'dokter_id' => 2,
                 'nomor_resep' => 'RSP-20250113-0001',
