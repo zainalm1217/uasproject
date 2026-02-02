@@ -34,6 +34,9 @@ return new class extends Migration
             $table->enum('tipe_rs', ['A', 'B', 'C', 'D'])
                 ->default('C')
                 ->comment('Tipe RS berdasarkan standar Kemenkes');
+
+            // GAMBAR
+            $table->string('upload_gambar')->nullable();
             $table->timestamps();
         });
     }
