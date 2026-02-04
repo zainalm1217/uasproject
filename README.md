@@ -4,7 +4,7 @@ Sistem Informasi Manajemen Rumah Sakit
 
 Nama: Zainal Muttaqin
 NIM: 20240803112
-Keterangan: Proyek Ujian Akhir Semester (UAS)
+Proyek Ujian Akhir Semester (UAS)
 
 Dokumentasi ini dibuat untuk menjelaskan struktur database pada Sistem Informasi Manajemen Rumah Sakit. Pembahasan meliputi fungsi tabel serta hubungan antar tabel yang digunakan dalam sistem.
 
@@ -40,4 +40,5 @@ Berisi rincian obat dalam resep, seperti jenis obat, jumlah, dan aturan pemakaia
 Diagram dan Dashboard
 
 Dashboard Metabase digunakan untuk menampilkan informasi dan analisis data rumah sakit secara visual.
+
 
