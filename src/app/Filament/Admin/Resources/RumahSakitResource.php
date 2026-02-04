@@ -12,6 +12,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Forms\Components\FileUpload;
 
 class RumahSakitResource extends Resource
 {
@@ -50,6 +51,11 @@ class RumahSakitResource extends Resource
                     ->required(),
                 Forms\Components\TextInput::make('tipe_rs')
                     ->required(),
+                FileUpload::make('upload_gambar')
+                    ->disk('minio')          // Wajib: arahkan ke disk minio
+                    ->visibility('public')   // Wajib: agar bisa diakses browser
+                    ->image()
+                    ->maxSize(2048)          // Max 2MB
             ]);
     }
 
